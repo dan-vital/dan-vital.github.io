@@ -11,14 +11,14 @@ header:
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
       zh-SG   : *ZH_HANS
-      fr      : &FR       Archives
+      fr      : &FR       Study
       fr-BE   : *FR
       fr-CA   : *FR
       fr-CH   : *FR
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /category/study.html
+    url: /category/study/study.html
 
   - titles:
       # @start locale config
@@ -38,7 +38,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /category/work.html
+    url: /category/work/work.html
 
   - titles:
       # @start locale config
@@ -58,7 +58,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /category/life.html
+    url: /category/life/life.html
 
   - titles:
       # @start locale config
@@ -108,4 +108,33 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
+    url: /archive.html
+
+Study:
+  - title:      电子信息工程
+    children:   
+      - title:  通信原理
+        url: /archive.html
+      - title:  信号与系统
+        url: /archive.html
+  - title:      计算机
+    children: 
+      - title:  计算机网络
+        url: /archive.html    #先是弄个大致的框架而已
+      - title:  数据结构
+        url: /archive.html
+          
+Work:
+  - title:      面试经验&总结
+    url: /archive.html
+  - title:      简历
+    url: /archive.html
+  - title:      工作体验&总结
+    url: /archive.html
+  - title:      职业规划
+    url: /archive.html
+Life: 
+  - title:      读书
+    url: /archive.html
+  - title:      旅游
     url: /archive.html
