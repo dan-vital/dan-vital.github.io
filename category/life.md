@@ -21,7 +21,7 @@ titles: Life -dan_vital
 key: page-life
 ---
 
-生活 -dan_vital
+
 
 
  # 这是生活板块
