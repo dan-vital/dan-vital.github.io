@@ -1,7 +1,7 @@
 ---
 layout: articles
 titles:
-    en:       Principal
+    en:       Communication Principal
     zh:       通信原理
     zh-Hans:  通信原理
     zh-Hant:  通信原理
@@ -11,7 +11,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "通原" %}
+        {% if cat[0] == "_principal" %}
         {% for post in cat[1] %}
         {{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
