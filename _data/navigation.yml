@@ -111,10 +111,10 @@ header:
     url: /archive.html
 
 Study:
-  - title:      电子信息工程
+  - title:      通信
     children:   
       - title:  通信原理
-        url: /archive.html
+        url: /category/study/communication/principle.html
       - title:  信号与系统
         url: /archive.html
   - title:      计算机
