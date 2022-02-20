@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       Data Structure
+    zh:       数据结构
+    zh-Hans:  数据结构
+    zh-Hant:  数据结构
+sidebar:
+    nav: Study
+---
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "数据结构" %}
+        {% for post in cat[1] %}
+        {{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        <br>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>
+

@@ -116,25 +116,25 @@ Study:
       - title:  通信原理
         url: /category/study/communication/principle.html
       - title:  信号与系统
-        url: /archive.html
+        url: /category/study/communication/signal&system.html
   - title:      计算机
     children: 
       - title:  计算机网络
-        url: /archive.html    #先是弄个大致的框架而已
+        url: /category/study/cs/network.html    #先是弄个大致的框架而已
       - title:  数据结构
-        url: /archive.html
+        url: /category/study/cs/data_structure.html
           
-Work:
-  - title:      面试经验&总结
-    url: /archive.html
-  - title:      简历
-    url: /archive.html
-  - title:      工作体验&总结
-    url: /archive.html
-  - title:      职业规划
-    url: /archive.html
-Life: 
-  - title:      读书
-    url: /archive.html
-  - title:      旅游
-    url: /archive.html
+# Work:
+#   - title:      面试经验&总结
+#     url: /archive.html
+#   - title:      简历
+#     url: /archive.html
+#   - title:      工作体验&总结
+#     url: /archive.html
+#   - title:      职业规划
+#     url: /archive.html
+# Life: 
+#   - title:      读书
+#     url: /archive.html
+#   - title:      旅游
+#     url: /archive.html
