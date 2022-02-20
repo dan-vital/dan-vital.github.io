@@ -2,7 +2,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Study
+      en      : *EN       #Study
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
