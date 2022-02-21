@@ -126,17 +126,13 @@ Study:
       - title:  数据结构
         url: /category/study/cs/data_structure.html
           
-# Work:
-#   - title:      面试经验&总结
-#     url: /archive.html
-#   - title:      简历
-#     url: /archive.html
-#   - title:      工作体验&总结
-#     url: /archive.html
-#   - title:      职业规划
-#     url: /archive.html
-# Life: 
-#   - title:      读书
-#     url: /archive.html
-#   - title:      旅游
-#     url: /archive.html
+Work:
+  - title:      求职
+    url: /categoey/work/_seek_jobs.html
+  - title:      工作总结
+    url: /categoey/work/summary.html
+  - title:      职业规划
+    url: /categoey/work/paln.html
+Life: 
+  - title:      阅读
+    url: /archive.html
