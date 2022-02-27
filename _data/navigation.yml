@@ -17,7 +17,6 @@ header:
       fr-CH   : *FR
       fr-FR   : *FR
       fr-LU   : *FR
-      tr      : &TR       Arşivdekiler
       # @end locale config
     url: /category/study/study.html
 
@@ -125,14 +124,20 @@ Study:
         url: /category/study/cs/network.html    #先是弄个大致的框架而已
       - title:  数据结构
         url: /category/study/cs/data_structure.html
+      - title:  python
+        url: /category/study/python/spider.html
           
 Work:
-  - title:      求职
-    url: /categoey/work/_seek_jobs.html
-  - title:      工作总结
-    url: /categoey/work/summary.html
-  - title:      职业规划
-    url: /categoey/work/paln.html
+  - title:
+    children:
+      - title:      求职
+        url: /categoey/work/_seek_jobs.html
+      - title:      工作总结
+        url: /categoey/work/summary.html
+      - title:      职业规划
+        url: /categoey/work/paln.html
 Life: 
   - title:      阅读
-    url: /categoey/life/read.html
+    children:
+      - title:  推荐
+        url: /categoey/life/read.html
