@@ -2,16 +2,16 @@
 layout: articles
 titles:
     # @start locale config
-    en      : &EN       Spider
+    en      : &EN       Python
     en-GB   : *EN
     en-US   : *EN
     en-CA   : *EN
     en-AU   : *EN
-    zh-Hans : &ZH_HANS  爬虫
+    zh-Hans : &ZH_HANS  Python
     zh      : *ZH_HANS
     zh-CN   : *ZH_HANS
     zh-SG   : *ZH_HANS
-    fr      : &FR       Spider
+    fr      : &FR       Python
     fr-BE   : *FR
     fr-CA   : *FR
     fr-CH   : *FR
@@ -24,7 +24,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "_spider_img" %}
+        {% if cat[0] == "_python" %}
         {% for post in cat[1] %}
         {{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

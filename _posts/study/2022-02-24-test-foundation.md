@@ -5,7 +5,7 @@ tags: 软件测试
 key: p2022-02-24-test-foundation
 aside:
   toc: true
-category: [Work，test] 
+category: [Study，_test] 
 ---
 
 # 软件测试基础的整理
