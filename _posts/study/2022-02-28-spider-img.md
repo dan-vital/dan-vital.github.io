@@ -26,7 +26,6 @@ from os import mkdir  #为了新建目录
 import requests  
 from lxml import etree  # 导入lxml的etree库
 import vthread  #github上一个大佬写的多线程库，安装后导入即可
-
 ```
 
 ### 2、 **获取目标网址（你得先确定从哪开始爬虫）**  
@@ -36,7 +35,6 @@ import vthread  #github上一个大佬写的多线程库，安装后导入即可
         'https://www.58pic.com/piccate/53-525-0-ty10-p%d.html' % (n))  # 爬虫的目标网址，为了抓取不同页面，而将页码定义为参数
         #如果是只爬一个网页，直接放网址即可
     resp.encoding = resp.apparent_encoding  # 设置编码格式
-
 ```
 ### 3、**分析所获取的html**   
 
