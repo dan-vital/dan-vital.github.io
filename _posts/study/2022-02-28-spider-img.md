@@ -110,6 +110,13 @@ if __name__ == "__main__":
     for i in range(1, 21):  #爬取第一页到20页
         img_spider(i)
 
-```
+```  
+
+## 三、附录
+学习的过程大都时候绝不是凭借自己去创造的，大都时候是靠学习借鉴他人，所以在此附上学习爬虫这个过程中所学习和参考的网址：  
+1. [关于python ](https://www.runoob.com/python/python-tutorial.html)
+2. [用Xpath选择器解析网页](https://www.cnblogs.com/HuZihu/p/10219912.html)
+3. [python 多线程函数库 vthread ，简而强大](https://github.com/cilame/vthread)
+
 
 
