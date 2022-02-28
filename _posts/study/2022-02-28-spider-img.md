@@ -14,12 +14,14 @@ category: [Study, _python]
 
 ## 一、所需工具
 1. python
-2. 相应的库：resquest、ltml、vthread、mkdir
+2. 相应的库：resquest、ltml、vthread、mkdir  
+
 --------------------------------
+
 ## 二、步骤
 ### 1、**导入所需要的库**
-```python
 
+```python
 from os import mkdir  #为了新建目录
 import requests  
 from lxml import etree  # 导入lxml的etree库
