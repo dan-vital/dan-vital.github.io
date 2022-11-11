@@ -132,6 +132,16 @@ Study:
         url: /category/study/programming/data_structure.html
       - title:  MySQL
         url: /category/study/programming//MySQL.html
+ - title: 软件测试
+  children:
+    - title: 软件测试基础
+      url:  /category/study/software_testing//test_foundation.html
+    - title:  自动化测试a
+      url: /category/study/software_testing/automated_testing.html
+    - title:  接口测试
+      url: /category/study/software_testing/interface_testing.html
+    - title:  性能测试
+      url: /category/study/software_testing/performance_testing.html
 #       - title:  软件测试
 #         url: /category/study/program-test/test.html
           
