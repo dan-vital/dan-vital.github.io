@@ -1,0 +1,27 @@
+---
+layout: articles
+titles:
+    # @start locale config
+    en      : &EN       test foundation
+    en-AU   : *EN
+    zh-Hans : &ZH_HANS  软件测试基础
+    zh      : *ZH_HANS
+    zh-CN   : *ZH_HANS
+    zh-SG   : *ZH_HANS
+    fr      : &FR       test foundation
+    # @end locale config
+sidebar:
+    nav: Study
+---
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "_test_foundation" %}
+        {% for post in cat[1] %}
+        {{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        <br>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>test_foundation
