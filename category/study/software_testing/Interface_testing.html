@@ -1,0 +1,27 @@
+---
+layout: articles
+titles:
+    # @start locale config
+    en      : &EN       Interface testing
+    en-AU   : *EN
+    zh-Hans : &ZH_HANS  接口测试
+    zh      : *ZH_HANS
+    zh-CN   : *ZH_HANS
+    zh-SG   : *ZH_HANS
+    fr      : &FR       Interface testing
+    # @end locale config
+sidebar:
+    nav: Study
+---
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "_interface" %}
+        {% for post in cat[1] %}
+        {{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        <br>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>interface
