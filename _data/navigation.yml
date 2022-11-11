@@ -122,12 +122,18 @@ Study:
     children: 
       - title:  计算机网络
         url: /category/study/cs/network.html    #先是弄个大致的框架而已
-      - title:  数据结构
-        url: /category/study/cs/data_structure.html
+  - title: 编程
+    children:
+      - title: C语言
+        url:  /category/study/programming/C.html
       - title:  python
-        url: /category/study/python/python.html
-      - title:  软件测试
-        url: /category/study/program-test/test.html
+        url: /category/study/programming/python.html
+      - title:  数据结构
+        url: /category/study/programming/data_structure.html
+      - title:  MySQL
+        url: /category/study/programming//MySQL.html
+#       - title:  软件测试
+#         url: /category/study/program-test/test.html
           
 Work:
   - title:
