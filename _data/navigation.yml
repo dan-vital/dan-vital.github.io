@@ -135,7 +135,7 @@ Study:
   - title:  软件测试
     children:
       - title: 软件测试基础
-        url:  /category/study/software_testing//test_foundation.html
+        url:  /category/study/software_testing/test_foundation.html
       - title:  自动化测试a
         url: /category/study/software_testing/automated_testing.html
       - title:  接口测试
